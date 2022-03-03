@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #c4c4c4;
+}
+#root {
+  position: relative;
+  background-color: firebrick;
+  width: 700px;
+  margin: 4rem auto;
+  overflow: hidden;
+}
+::marker {
+  color:#62DCFC;
+  font-size: 2rem;
+}
+.container {
+  width: 700px;
+}
+.header {
+  display: flex;
+  background-color: rgb(24, 22, 22);
+  padding: 1rem; 
+}
+.header h3 {
+  color:#62DCFC;
+  padding-top: .7rem;
+  padding-left: 1rem;
+  font-size: 22px;
+  font-weight: 600;
+}
+.lightHeader {
+  border-bottom: 2px solid rgba(49, 47, 47, 0.3);
+  display: flex;
+  background-color: white;
+  padding: 1rem; 
+}
+.lightHeader h3 {
+  color:#62DCFC;
+  padding-top: .7rem;
+  padding-left: 1rem;
+  font-size: 22px;
+  font-weight: 600;
+}
+.navMenu {
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  left: 350px;
+  top: 40px;
+  background: white;
+  width: 50px;
+  height: 20px;
+  border-radius: 10rem;
+}
+.navMenu p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: white
+}
+.navMenu div {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 1px;
+  background: black;
+  border-radius: 3rem;
+  transition: all 500ms;
+}
+.navMenu  a{
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: 600;
+}
+.lightNavMenu {
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  left: 350px;
+  top: 40px;
+  background: black;
+  width: 50px;
+  height: 20px;
+  border-radius: 10rem;
+}
+.lightNavMenu p {
+  color:black;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.lightNavMenu div {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 1px;
+  background: white;
+  border-radius: 3rem;
+  transition: all 500ms;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  padding-top: 1rem;
+}
+.main {
+  padding: 1rem 1rem 10rem 1rem;
+  background: rgb(49, 47, 47);
+  position: relative;
+}
+.main img {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  opacity: .1;
+  right: -150px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.main h1 {
+  color: whitesmoke;
+  font-size: 62px;
+  margin-left: 1rem;
+}
+.main li {
+  color: whitesmoke;
+  font-size: 22px;
+  margin-top: 1rem;
+}
+.lightMain h1 {
+  color: black;
+  font-size: 62px;
+  margin-left: 1rem;
+}
+.lightMain li {
+  color: black;
+  font-size: 22px;
+  margin-top: 1rem;
+}
+.lightMain {
+  padding: 1rem 1rem 10rem 1rem;
+  background: white;
+  position: relative;
+}
+.lightMain img {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  opacity: .3;
+  right: -150px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nav {
+  display: flex;
+}
+footer p {
+  margin-top: 0;
+  text-align: center;
+  padding: 2rem 0;
+  background: rgb(49, 47, 47);
+}
